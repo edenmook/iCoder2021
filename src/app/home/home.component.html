@@ -1,0 +1,7 @@
+
+<app-action-bar [(number)]="actionBarNumber1" (numberChange)="sumResult()" [notBelow]="0" [step]="1" [notMore]="100"></app-action-bar>actionBarNumber1 {{actionBarNumber1}}
+<app-action-bar  [(number)]="actionBarNumber2" (numberChange)="sumResult()" [notBelow]="-10" [step]="10" [notMore]="200"></app-action-bar>actionBarNumber2 {{actionBarNumber2}}
+<app-action-bar [(number)]="actionBarNumber3" (numberChange)="sumResult()" [notBelow]="-200" [step]="100" [notMore]="400"></app-action-bar>actionBarNumber3 {{actionBarNumber3}}
+<div>
+  ผลรวม{{result}}
+</div>
